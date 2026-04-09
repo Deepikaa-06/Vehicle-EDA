@@ -1,43 +1,53 @@
-Vehicle Insurance Exploratory Data Analysis (EDA)
-Project Overview
-This project focuses on performing an in-depth Exploratory Data Analysis (EDA) on a vehicle insurance dataset to identify the key factors that influence customer interest in insurance policies. The goal is to provide data-driven insights that could help an insurance company optimize its marketing strategies and risk assessment.
+🚗 Vehicle Insurance Data Analysis Project
+📌 Introduction
 
-Objectives
-Clean and preprocess raw insurance data for analysis.
+This project focuses on analyzing a Vehicle Insurance dataset to extract meaningful insights about customer behavior, policy trends, and factors affecting insurance purchases. The goal is to perform Exploratory Data Analysis (EDA) and visualize patterns that can help in better decision-making.
 
-Visualize demographic distributions (Age, Gender, Region).
+🎯 Objective
+Understand customer demographics and insurance behavior
+Identify key factors influencing vehicle insurance purchase
+Analyze trends based on age, vehicle type, and region
+Detect patterns that can help insurance companies improve strategies
+📂 Dataset Description
 
-Analyze the relationship between vehicle condition (Age, Damage) and claim intent.
+The dataset contains information about customers and their vehicle insurance details. Key features include:
 
-Evaluate the effectiveness of different sales channels.
+Age – Age of the customer
+Gender – Male/Female
+Region_Code – Customer’s region
+Previously_Insured – Whether the customer had insurance before
+Vehicle_Age – Age of the vehicle
+Vehicle_Damage – Whether the vehicle was damaged before
+Annual_Premium – Insurance premium amount
+Policy_Sales_Channel – Channel used to sell policy
+Vintage – Number of days customer is associated
+Response – Whether customer is interested (Target Variable)
+🛠️ Tools & Technologies Used
+Python 🐍
+Pandas – Data manipulation
+NumPy – Numerical operations
+Matplotlib & Seaborn – Data visualization
+Jupyter Notebook
+🔍 Project Workflow
+Data Loading & Understanding
+Data Cleaning (handling missing values, duplicates)
+Exploratory Data Analysis (EDA)
+Data Visualization
+Insights & Conclusion
+📊 Key Insights
+Customers with previous vehicle damage are more likely to buy insurance
+Younger vehicles show higher insurance interest
+Customers who are not previously insured are more likely to respond
+Certain sales channels perform better than others
+📈 Visualizations
+Count plots (Gender, Vehicle Age, Response)
+Correlation heatmap
+Distribution plots (Age, Premium)
+Bar charts for categorical analysis
+✅ Conclusion
 
-Derive actionable business insights based on statistical patterns.
+This analysis highlights important factors influencing vehicle insurance purchases. These insights can help companies:
 
-Dataset Description
-The dataset includes several features related to the customer and their vehicle:
-
-Demographics: Age, Gender, Region Code.
-
-Vehicle Info: Vehicle Age, Past Vehicle Damage.
-
-Policy Info: Annual Premium, Policy Sales Channel, Vintage (days associated with the company).
-
-Target Variable: Response (1 if the customer is interested, 0 if not).
-
-Key Findings
-Past Damage: Customers with a history of vehicle damage are significantly more likely to seek insurance.
-
-Vehicle Age: Interest in insurance policies peaks for vehicles aged between 1 and 2 years.
-
-Customer Loyalty: Customers already possessing insurance are highly unlikely to switch or buy a new policy, indicating a need to target the uninsured market.
-
-Age Factor: Middle-aged drivers (30s–40s) show a higher conversion rate compared to younger demographics.
-
-Technologies Used
-Python 3.x
-
-Pandas: Data manipulation and cleaning.
-
-Matplotlib & Seaborn: Data visualization and statistical plotting.
-
-Jupyter Notebook: Environment for interactive analysis.
+Target the right customers
+Optimize marketing strategies
+Improve policy offerings
